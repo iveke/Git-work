@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-transform: bold;
+    text-align: center;
+}
+.block{
+    width: 400px; 
+height: 80px;
+}
+.box1,.box2{
+    width: 400px;
+    margin: 0px 0px 60px 400px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.block2{
+    float: left;
+    width: 133px;
+height: 80px;
+padding: 30px;
+}
+.yellow{
+    background-color: yellow;
+height: 80px;
+    width: 400px;
+}
+
+.block{
+    width: 400px;
+height: 80px;
+}
+.grey{
+    background-color: grey;
+}
+.dark{
+    background-color: black;
+}
+.block3{
+    width: 200px;
+height: 80px;
+    float: left;
+}
+.box3{
+    width: 600px;
+    background-color: darkblue;
+    margin: 0px 0px 60px 400px;
+}
+.blockb3{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin: 20px;
+    float: left;
+    border: solid 3px black;
+}

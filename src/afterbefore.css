@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    margin: 0 auto;
+    width: 400px;
+}
+h1,h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: uppercase;
+font-size: larger;
+margin: 15px 0;
+}
+.after::after{
+    content: ">";
+    margin: 0 10px;
+    
+}
+.after2::after{
+    content: "(http://htmlbook.ru/css/transition-property)";
+    margin: 0 10px;
+}
+.before::before{
+    content: ;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.after:hover{
+    color: blueviolet;
+
+}

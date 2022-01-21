@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
+    color: white;
+    background-color: rgb(99, 99, 99);
+    padding: 10px;
+} 
+p{
+    font-size: medium;
+    margin: 10px;
+}
+.box{
+    border: solid 7px black;
+    width: 300px;
+    margin: 10px;
+}
+.main{
+    display: flex;
+    width: 1800px;
+    margin: 0 auto;
+}
+.main_left_botton{
+    display: flex;
+justify-content: start;
+}
+.main_left{
+    width: 900px;
+    margin: 10px;
+}

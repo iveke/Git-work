@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background: url(https://www.iphones.ru/wp-content/uploads/2021/09/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0-2021-09-07-%D0%B2-19.48.05.jpg);
+    max-width: 100%;
+    color: honeydew;
+    background-repeat: 0;
+}
+.up{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   width: 100%;
+}
+.first{
+    width: 50%;
+    text-align: center;
+}
+a{
+    color: honeydew;
+    text-decoration: none;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none ;
+padding: 20px;
+}
+.down{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+h1{
+    margin: 30px auto;
+}
+p{
+    margin: 30px auto;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.defis{
+    background-color: rgba(35, 32, 43, 0.884);
+    width: 70px;
+    height: 3px;
+    margin: 5px;
+}
+.botton{
+    border: rgb(19, 19, 19) solid 2px;
+    padding: 15px;
+}
+a:hover{
+    background-color: rgb(110, 104, 104);
+    color: rgb(233, 233, 233,);
+    padding: 15px;
+    border-radius: 50%;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: 1;
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+.sect1{
+    width: 33%;
+}
+.sect2{
+    width: 33%;
+}
+.sect3{
+    width: 33%;
+}
+h4{
+    text-align: center;
+}
+.icon{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: 2;
+}
+.icon:hover{
+    background-color: brown;
+    border-radius: 30%;
+    width: 50%;
+}
+.ico{
+    font-size: 15px;
+    padding: 20px;
+}
+.niz{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    height: 200px;
+}
+@media (max-width:1000px){
+    .contain{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: 1;
+    }
+}
